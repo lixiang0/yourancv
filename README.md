@@ -1,8 +1,8 @@
-# Pedestrian-Detection by YOLOv1
+# Pedestrian-Detection by YOLOv1 in PyTorch
 
 
 <p align="center">
-  <img src="/output.gif" alt="Pedestrian Detector in action"></img>
+  <img src="/2.png" alt="Pedestrian Detector in action"></img>
 </p>
 
 
