@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="/2.png" alt="Pedestrian Detector in action" width=200></img>
+  <img src="/2.png" alt="Pedestrian Detector in action" width=600></img>
 </p>
 
 
