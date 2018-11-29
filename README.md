@@ -2,11 +2,11 @@
 
 
 <p align="center">
-  <img src="/2.png" alt="Pedestrian Detector in action"></img>
+  <img src="/2.png" alt="Pedestrian Detector in action" width=200></img>
 </p>
 
 
-## Dataset
+### Dataset
 The [TownCentre](http://www.robots.ox.ac.uk/ActiveVision/Research/Projects/2009bbenfold_headpose/project.html#datasets) dataset is used for training our pedestrian detector. You can use the following commands to download the dataset. This automatically extracts the frames from the video, and creates XML files from the csv groundtruth. The image dimensions are downscaled by a factor of 2 to reduce processing overhead.
 ```
 wget http://www.robots.ox.ac.uk/ActiveVision/Research/Projects/2009bbenfold_headpose/Datasets/TownCentreXVID.avi
@@ -17,18 +17,18 @@ python xx_extract_xml.py
 python xx_generate_xml2txt.py
 ```
 
-**Train**
+### Train
 ```
 python train.py
 ```
 
-**Test for files**
+### Test for files
 ```
 python test_file.py
 ```
 
 
-**Test for video**
+### Test for video
 ```
 python test_video.py
 ```
