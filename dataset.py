@@ -58,7 +58,7 @@ class dataset(torch.utils.data.Dataset):
             ij = (cxcy / cell_size).ceil() - 1
             # print(ij)
             cxcy = (cxcy - ij * cell_size) / cell_size
-            clss = box[0] + 9
+            clss = box[0] + 10
             # print(int(ij[1]), np.minimum(int(ij[0]),6), 4)
             target[np.minimum(int(ij[1]),6), int(ij[0]), 4] = 1
             target[np.minimum(int(ij[1]),6), int(ij[0]), 9] = 1  # confidence
