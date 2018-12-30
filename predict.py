@@ -124,7 +124,7 @@ def predict_gpu_img(model,img):
         y1 = int(box[1]*h)
         y2 = int(box[3]*h)
         cls_index = cls_indexs[i]
-        cls_index = int(cls_index)+1 # convert LongTensor to int
+        cls_index = int(cls_index) # convert LongTensor to int
         prob = probs[i]
         prob = float(prob)
         result.append([(x1,y1),(x2,y2),VOC_CLASSES[cls_index],'image_name',prob])
