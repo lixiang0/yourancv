@@ -1,3 +1,7 @@
 *.pyc
 .ipynb_checkpoints
 __pycache__/
+temp_files/
+*.h5
+*.bk
+test_predict.py
