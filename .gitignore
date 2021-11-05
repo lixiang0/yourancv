@@ -5,3 +5,10 @@ temp_files/
 *.h5
 *.bk
 test_predict.py
+yolov1/images/*.jpg
+yolov1/results/images/*.jpg
+yolov1/input/detection-results/*.txt
+yolov1/input/ground-truth/*.txt
+yolov1/input/images-optional/*.txt
+yolov1/results/
+yolov1/xmls
