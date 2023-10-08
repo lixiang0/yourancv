@@ -4,6 +4,8 @@ __pycache__/
 temp_files/
 *.h5
 *.bk
+*.pth
+data/
 test_predict.py
 yolov1/images/*.jpg
 yolov1/results/images/*.jpg
