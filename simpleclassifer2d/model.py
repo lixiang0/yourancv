@@ -13,7 +13,7 @@ class CNN2d(torch.nn.Module):
         temp=torch.randn(1,self.in_chanel,self.win,self.hin)
         temp=self.conv1(temp)
         self.linear=torch.nn.Linear(torch.numel(temp.data),self.num_class)
-        self.softmax=torch.nn.Softmax()
+        self.softmax=torch.nn.LogSoftmax()
     def forward(self, input):
         out=self.norm(self.conv1(input))
         out=self.relu(out)
